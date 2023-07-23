@@ -146,6 +146,8 @@ img{
 
 
 
+
+
 /*   logos   */
 .logos{
     display: flex;
@@ -224,10 +226,21 @@ img{
     }
 
 
+    .divider__container{
+        flex-direction: row;
+    }
 
 
-
-
+    .logos{
+        flex-direction: row;
+        gap: 15px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+    }
+    .logo{
+        flex-shrink: 1;
+        margin: 10px;
+    }
     .footer{
         flex-direction: row;
         padding: 0 10vw;
